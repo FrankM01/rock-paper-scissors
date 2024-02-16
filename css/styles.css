@@ -1,0 +1,38 @@
+*{
+    min-width: 0;
+    font: inherit;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: #808080;
+    
+    margin: 0;
+    min-height: 100dvh;
+}
+h1{
+    color: black;
+    font-size: 64px;
+    text-wrap: balance;
+}
+p{
+    color: white;
+    font-size: 22px;
+    text-wrap: pretty;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: #2b2525;
+    padding: 20px;
+    border-radius: 4px;
+}
