@@ -1,38 +1,97 @@
-*{
+* {
     min-width: 0;
+    padding: 0;
+    margin: 0;
     font: inherit;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #808080;
-    
-    margin: 0;
+    height: 100vh;
+    text-align: center;
     min-height: 100dvh;
 }
-h1{
+
+h1 {
+    margin: 20px;
     color: black;
     font-size: 64px;
     text-wrap: balance;
 }
-p{
+
+p {
     color: white;
     font-size: 22px;
     text-wrap: pretty;
 }
 
-.container{
+button {
+    background-color: #243625;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 4px;
+
+}
+
+
+#result{
+    font-size: 50px;
+    color:darkgreen;
+    font-weight: bold;
+    
+}
+
+.container {
+    width: 100%;
     display: flex;
     margin: 0 auto;
+    padding: 50px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    place-items: center;
 }
 
-.content{
+.content {
+    /* width: 100%; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 150px;
+    text-align: center;
+    place-items: end;
+}
+
+.center-content {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     background-color: #2b2525;
-    padding: 20px;
+    margin-top: 30px;
+    padding: 50px;
     border-radius: 4px;
 }
+
+
+.left-content p,
+.right-content p {
+    font-size: 64px;
+
+}
+

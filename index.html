@@ -11,13 +11,28 @@
 <body>
     <div class="container">
         <h1>Rock paper & Scissors Game</h1>
-        <div class="content">
-            <p>Use the console for view the game </p>
-            <p>You can view the console pressing the following keys: Ctrl + Shift + C</p>
-            <p>And you switch the tab console</p>
-        </div>
 
+        <div class="content">
+            <div class="left-content">
+                <p id="scorePlayer"></p>
+                <p>player</p>
+            </div>
+
+            <div class="center-content">
+                <button id="btnRock">Rock</button>
+                <button id="btnPaper">Paper</button>
+                <button id="btnScissors">Scissors</button>
+            </div>
+            <div class="right-content">
+                <p id="scoreComputer"></p>
+                <p>computer</p>
+            </div>
+            
+        </div>
+        
     </div>
+    <p id="result"></p>
+    
 
 
     <script src="js/main.js"></script>
